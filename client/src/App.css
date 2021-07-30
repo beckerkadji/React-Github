@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.information {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid grey;
+  padding-bottom: 20px;
+}
+
+.information .addEmployee,input {
+  width: 50%;
+  height: 50px;
+  font-size: 15px;
+  padding-left: 10px;
+  border-radius: 2px;
+  text-align: center;
+}
+tr button {
+  font-size: 15px;
+  padding: 3px;
+}
+button {
+  margin-top: 25px;
+  background-color: brown;
+  border: none;
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+  border: 1px solid brown;
+  background-color: white;
+  color: brown;
+}
+button:focus {
+  background-color: brown;
+  color: white;
+  border: none; 
+}
+.employees {
+  font-size: 20px;
+  margin-top: 15px;
+ color: rgb(29, 28, 28);
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+th,td {
+  border: thin solid black;
+  padding: 10px;
+}
+caption {
+  background-color: #0AD;
+  font-weight: bold;
+  color: white;
+}
+.bloc2 {
+  width: 100%;
+  padding: 20px; 
+}
+
+.updatebutton,.inputupdate {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.updatebutton button {
+  margin: none;
+
+}
