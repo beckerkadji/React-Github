@@ -145,7 +145,7 @@ function App() {
           <button onClick={getEmployee}>Show Employee</button>
           <div className='employees'>
             <table width='' height=''border='1'>
-              <caption>Liste Employés</caption>
+              <caption>Liste des Employés</caption>
                 <tr>
                   <th>Nom</th>
                   <th>Pays</th>
